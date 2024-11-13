@@ -28,28 +28,28 @@
                 <form action="#" method="POST" class="space-y-6">
                     <div class="flex space-x-4">
                         <div class="w-1/2">
-                            <label for="first-name" class="block text-sm font-semibold mb-2">First Name</label>
-                            <input type="text" id="first-name" name="first-name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-gray-700 dark:text-gray-100">
+                            <label for="first-name" class="x-label">First Name</label>
+                            <input type="text" id="first-name" name="first-name" class="x-input">
                         </div>
                         <div class="w-1/2">
-                            <label for="last-name" class="block text-sm font-semibold mb-2">Last Name</label>
-                            <input type="text" id="last-name" name="last-name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-gray-700 dark:text-gray-100">
+                            <label for="last-name" class="x-label">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" class="x-input">
                         </div>
                     </div>
 
                     <div class="flex space-x-4">
                         <div class="w-1/2">
-                            <label for="email" class="block text-sm font-semibold mb-2">Email</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-gray-700 dark:text-gray-100">
+                            <label for="email" class="x-label">Email</label>
+                            <input type="email" id="email" name="email" class="x-input">
                         </div>
                         <div class="w-1/2">
-                            <label for="phone" class="block text-sm font-semibold mb-2">Phone Number</label>
-                            <input type="text" id="phone" name="phone" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-gray-700 dark:text-gray-100">
+                            <label for="phone" class="x-label">Phone Number</label>
+                            <input type="text" id="phone" name="phone" class="x-input">
                         </div>
                     </div>
 
                     <div>
-                        <label for="subject" class="block text-sm font-semibold mb-2">Select Subject</label>
+                        <label for="subject" class="x-label">Select Subject</label>
                         <div class="flex space-x-4">
                             <label class="inline-flex items-center">
                                 <input type="radio" name="subject" value="general-inquiry" class="text-primary-600 dark:bg-gray-700">
@@ -67,8 +67,8 @@
                     </div>
 
                     <div>
-                        <label for="message" class="block text-sm font-semibold mb-2">Message</label>
-                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-gray-700 dark:text-gray-100" placeholder="Write your message..."></textarea>
+                        <label for="message" class="x-label">Message</label>
+                        <textarea id="message" name="message" rows="4" class="x-input" placeholder="Write your message..."></textarea>
                     </div>
 
                     <button type="submit" class="w-full md:w-auto bg-primary-600 hover:bg-primary-700 text-white font-semibold px-6 py-3 rounded-md">Send Message</button>

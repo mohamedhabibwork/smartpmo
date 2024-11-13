@@ -5,13 +5,15 @@
         <div class="flex flex-col items-center">
             <!-- Logo Section -->
             <div class="mb-6">
-                <img src="{{ asset('assets/logo.svg') }}" alt="SmartPMO Logo" class="h-12 mx-auto"> <!-- Replace with actual logo image if available -->
+                <img src="{{ asset('assets/logo.svg') }}" alt="SmartPMO Logo" class="h-24 mx-auto"> <!-- Replace with actual logo image if available -->
             </div>
 
+            <div class="h-[1px] w-full bg-white my-6"></div>
+
             <!-- Footer Links -->
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-8 text-center md:text-left">
+            <div class="grid grid-cols-2 md:grid-cols-7 gap-8 text-center md:text-left">
                 <!-- Reach Us Section -->
-                <div>
+                <div class="md:col-span-2">
                     <h5 class="text-lg font-bold mb-4">Reach us</h5>
                     <ul class="space-y-2">
                         <li class="flex items-center justify-center md:justify-start">
@@ -61,7 +63,7 @@
                 </div>
 
                 <!-- Newsletter Section -->
-                <div class="bg-gray-800 dark:bg-gray-200 p-4 rounded">
+                <div class="bg-gray-800 dark:bg-gray-200 p-4 rounded col-span-2">
                     <h5 class="text-lg font-bold mb-4">Join Our Newsletter</h5>
                     <p class="text-sm mb-4">* Will send you weekly updates for your better tool management.</p>
                     <div class="flex">

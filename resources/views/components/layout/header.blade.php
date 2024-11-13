@@ -4,9 +4,9 @@
     <div class="container mx-auto py-4 px-6">
         <div class="flex justify-between items-center">
             <!-- Logo -->
-            <div class="text-xl font-bold text-primary-700 dark:text-primary-500">
-                <img src="{{ asset('assets/logo.svg') }}" alt="Logo" class="h-10 inline"> <!-- Replace with actual logo image if available -->
-            </div>
+            <a href="{{ route('home') }}" class="text-xl font-bold text-primary-700 dark:text-primary-500">
+                <img src="{{ asset('assets/logo.svg') }}" alt="Logo" class="h-16 inline"> <!-- Replace with actual logo image if available -->
+            </a>
 
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex space-x-6">
