@@ -19,7 +19,7 @@
                     <a href="#" @click="open = !open" class="block ">Resources</a>
                     <div x-show="open" @click.away="open = false" x-cloak class="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-md z-10 border-gray-700 border-1">
                         <a href="{{ route('case-study') }}" class="block px-4 py-2 hover:bg-primary-700 dark:hover:bg-primary-500 hover:text-white">Resource 1</a>
-                        <a href="{{ route('case-study') }}" class="block px-4 py-2 hover:bg-primary-700 dark:hover:bg-primary-500 hover:text-white">Resource 2</a>
+                        <a href="{{ route('news') }}" class="block px-4 py-2 hover:bg-primary-700 dark:hover:bg-primary-500 hover:text-white">News</a>
                         <a href="{{ route('case-study') }}" class="block px-4 py-2 hover:bg-primary-700 dark:hover:bg-primary-500 hover:text-white">Resource 3</a>
                     </div>
                 </div>

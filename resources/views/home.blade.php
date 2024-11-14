@@ -195,7 +195,7 @@
                     <a href="#" class="x-learn-more">Learn more</a>
                 </div>
                 <div class="lg:w-1/2">
-                    <img src="{{ asset('assets/dashboard.png') }}" alt="Dashboard Screenshot" class="w-full h-auto rounded-lg shadow-md"> <!-- Replace with actual image URL -->
+                    <img src="{{ asset('assets/img-2.jpg') }}" alt="Dashboard Screenshot" class="w-full h-auto rounded-lg shadow-md"> <!-- Replace with actual image URL -->
                 </div>
             </div>
 
@@ -209,7 +209,7 @@
                     <a href="#" class="x-learn-more">Learn more</a>
                 </div>
                 <div class="lg:w-1/2">
-                    <img src="{{ asset('assets/project_control.png') }}" alt="Project Control Screenshot" class="w-full h-auto rounded-lg shadow-md"> <!-- Replace with actual image URL -->
+                    <img src="{{ asset('assets/img-3.jpg') }}" alt="Project Control Screenshot" class="w-full h-auto rounded-lg shadow-md"> <!-- Replace with actual image URL -->
                 </div>
             </div>
 
@@ -223,7 +223,7 @@
                     <a href="#" class="x-learn-more">Learn more</a>
                 </div>
                 <div class="lg:w-1/2">
-                    <img src="{{ asset('assets/digest_accumulate.png') }}" alt="Digest & Accumulate Screenshot" class="w-full h-auto rounded-lg shadow-md"> <!-- Replace with actual image URL -->
+                    <img src="{{ asset('assets/img-3.jpg') }}" alt="Digest & Accumulate Screenshot" class="w-full h-auto rounded-lg shadow-md"> <!-- Replace with actual image URL -->
                 </div>
             </div>
         </div>
@@ -262,14 +262,13 @@
 
             <!-- News Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 x-boxes-grid">
-
                 <!-- Card 1 -->
                 <div class="x-box-item" data-aos="flip-right" data-aos-duration="400">
                     <div class="flex items-center mb-4">
                         <img src="{{ asset('assets/architecture_icon.svg') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Architectural Design & Planning</h3>
                     </div>
-                    <img src="{{ asset('assets/news1.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
+                    <img src="{{ asset('assets/img-1.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
@@ -286,7 +285,7 @@
                         <img src="{{ asset('assets/interior_design_icon.svg') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Interior Design & Styling Services</h3>
                     </div>
-                    <img src="{{ asset('assets/news2.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
+                    <img src="{{ asset('assets/img-2.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
@@ -302,10 +301,10 @@
                 <!-- Card 3 -->
                 <div class="x-box-item" data-aos="flip-right" data-aos-duration="1000">
                     <div class="flex items-center mb-4">
-                        <img src="{{ asset('assets/decor_icon.svg') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
+                        <img src="{{ asset('assets/interior_design_icon.svg') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Decorative Items & Furniture</h3>
                     </div>
-                    <img src="{{ asset('assets/news3.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
+                    <img src="{{ asset('assets/img-3.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
@@ -321,10 +320,10 @@
                 <!-- Card 4 -->
                 <div class="x-box-item" data-aos="flip-right" data-aos-duration="1300">
                     <div class="flex items-center mb-4">
-                        <img src="{{ asset('assets/turnkey_icon.svg') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
+                        <img src="{{ asset('assets/img-2') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Turnkey Services & Coordination</h3>
                     </div>
-                    <img src="{{ asset('assets/news4.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
+                    <img src="{{ asset('assets/img-2.jpg') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>

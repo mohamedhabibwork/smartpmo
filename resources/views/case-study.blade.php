@@ -10,59 +10,98 @@
 
     <!-- Case Studies Section -->
     <section class="container mx-auto py-12 px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-6xl font-bold text-gray-900 dark:text-gray-100">Real Success, Real Stories</h2>
+            <p class="x-subtitle"><span>Case Studies</span></p>
+            <div class="mt-2 border-t-2 border-gray-300 dark:border-gray-600 w-20 mx-auto"></div>
+        </div>
         <!-- Case Study Entries -->
         <div class="space-y-12">
             <!-- Case Study 1 -->
-            <div class="my-5 flex flex-col md:flex-row items-start bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md p-6">
-                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/3 h-auto rounded-lg mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
-                <div class="md:w-2/3">
-                    <h3 class="text-2xl font-bold mb-2">Case Study Name</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text...
-                    </p>
-                    <div class="flex items-center">
-                        <span class="text-gray-500 dark:text-gray-400 mr-2">Company Name</span>
-                        <img src="{{ asset('assets/company_logo.png') }}" alt="Company Logo" class="w-8 h-8 rounded-full"> <!-- Replace with actual logo -->
+            <div class="my-5 flex flex-col md:flex-row items-start p-6">
+                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/2 h-auto rounded-2xl mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
+                <div class="md:w-1/2">
+                    <div class="flex justify-between md:flex-row flex-col flex-wrap">
+                        <h3 class="md:text-4xl text-3xl font-medium mb-2">Case Study Name</h3>
+                        <div class="flex items-center">
+                            <img src="{{ asset('assets/logo.svg') }}" alt="Company Logo" class="w-6 h-6 rounded-full"> <!-- Replace with actual logo -->
+                            <span class="text-gray-500 dark:text-gray-400 ms-2 block">Company Name</span>
+                        </div>
                     </div>
+                    <div class="mt-2">
+                        <p class="text-gray-600 text-lg dark:text-gray-300 mb-4 line-clamp-[12]">
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- Case Study 2 -->
-            <div class="my-5 flex flex-col md:flex-row items-start bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md p-6">
-                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/3 h-auto rounded-lg mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
-                <div class="md:w-2/3">
-                    <h3 class="text-2xl font-bold mb-2">Case Study Name</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text...
-                    </p>
-                    <div class="flex items-center">
-                        <span class="text-gray-500 dark:text-gray-400 mr-2">Company Name</span>
-                        <img src="{{ asset('assets/company_logo.png') }}" alt="Company Logo" class="w-8 h-8 rounded-full"> <!-- Replace with actual logo -->
+            <!-- Case Study 1 -->
+            <div class="my-5 flex flex-col md:flex-row items-start p-6">
+                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/2 h-auto rounded-2xl mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
+                <div class="md:w-1/2">
+                    <div class="flex justify-between md:flex-row flex-col flex-wrap">
+                        <h3 class="md:text-4xl text-3xl font-medium mb-2">Case Study Name</h3>
+                        <div class="flex items-center">
+                            <img src="{{ asset('assets/logo.svg') }}" alt="Company Logo" class="w-6 h-6 rounded-full"> <!-- Replace with actual logo -->
+                            <span class="text-gray-500 dark:text-gray-400 ms-2 block">Company Name</span>
+                        </div>
                     </div>
+                    <div class="mt-2">
+                        <p class="text-gray-600 text-lg dark:text-gray-300 mb-4 line-clamp-[12]">
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- Case Study 3 -->
-            <div class="my-5 flex flex-col md:flex-row items-start bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md p-6">
-                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/3 h-auto rounded-lg mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
-                <div class="md:w-2/3">
-                    <h3 class="text-2xl font-bold mb-2">Case Study Name</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text...
-                    </p>
-                    <div class="flex items-center">
-                        <span class="text-gray-500 dark:text-gray-400 mr-2">Company Name</span>
-                        <img src="{{ asset('assets/company_logo.png') }}" alt="Company Logo" class="w-8 h-8 rounded-full"> <!-- Replace with actual logo -->
+            <!-- Case Study 1 -->
+            <div class="my-5 flex flex-col md:flex-row items-start p-6">
+                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/2 h-auto rounded-2xl mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
+                <div class="md:w-1/2">
+                    <div class="flex justify-between md:flex-row flex-col flex-wrap">
+                        <h3 class="md:text-4xl text-3xl font-medium mb-2">Case Study Name</h3>
+                        <div class="flex items-center">
+                            <img src="{{ asset('assets/logo.svg') }}" alt="Company Logo" class="w-6 h-6 rounded-full"> <!-- Replace with actual logo -->
+                            <span class="text-gray-500 dark:text-gray-400 ms-2 block">Company Name</span>
+                        </div>
                     </div>
+                    <div class="mt-2">
+                        <p class="text-gray-600 text-lg dark:text-gray-300 mb-4 line-clamp-[12]">
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Case Study 1 -->
+            <div class="my-5 flex flex-col md:flex-row items-start p-6">
+                <img src="{{ asset('assets/case_study_image.jpg') }}" alt="Case Study Image" class="w-full md:w-1/2 h-auto rounded-2xl mb-4 md:mb-0 md:mr-6"> <!-- Replace with actual image -->
+                <div class="md:w-1/2">
+                    <div class="flex justify-between md:flex-row flex-col flex-wrap">
+                        <h3 class="md:text-4xl text-3xl font-medium mb-2">Case Study Name</h3>
+                        <div class="flex items-center">
+                            <img src="{{ asset('assets/logo.svg') }}" alt="Company Logo" class="w-6 h-6 rounded-full"> <!-- Replace with actual logo -->
+                            <span class="text-gray-500 dark:text-gray-400 ms-2 block">Company Name</span>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="text-gray-600 text-lg dark:text-gray-300 mb-4 line-clamp-[12]">
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
