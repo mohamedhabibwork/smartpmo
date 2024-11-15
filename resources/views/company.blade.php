@@ -27,7 +27,7 @@
         </div>
 
         <!-- Our Story Section -->
-        <section class="relative w-full h-screen flex items-end justify-center text-center">
+        <section class="relative w-full min-h-[600px] flex items-end justify-center text-center">
             <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover rounded-lg" style="z-index: -1;">
                 <source src="{{ asset('assets/2240833_The Henderson_Construction Side_1280x720 (1).mp4') }}" type="video/mp4">
             </video>
@@ -82,10 +82,10 @@
                     </div>
                 </div>
                 <div class="flex justify-center items-center ml-auto space-x-4  p-6">
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-x-twitter"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-facebook"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-instagram"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-tiktok"></i> <!-- Replace with actual social icon --></a>
+                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-x-twitter"></i> <!-- Replace with actual social icon --></a>
+                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-facebook"></i> <!-- Replace with actual social icon --></a>
+                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-instagram"></i> <!-- Replace with actual social icon --></a>
+                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-tiktok"></i> <!-- Replace with actual social icon --></a>
                 </div>
             </div>
         </div>

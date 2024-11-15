@@ -15,7 +15,8 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="{{ request()->routeIs('home') ? 'bg-gray-100 dark:bg-gray-900 dark:text-gray-100' : 'bg-[#f0f0f0]' }} text-gray-900 font-sans">
+<body
+    class="{{ request()->routeIs('home') ? 'bg-gray-100 dark:bg-gray-900 dark:text-gray-100' : 'bg-[#f0f0f0]' }} text-gray-900 font-sans">
 
 <x-layout.header/>
 
@@ -38,42 +39,43 @@
     // JavaScript to manage dark, light, and auto themes
     const body = document.getElementById("body");
     const themeSelector = document.getElementById("theme-selector");
-
-    // Function to apply theme based on the selection
-    function applyTheme(theme) {
-        if (theme === "dark") {
-            body.classList.add("dark");
-            localStorage.setItem("theme", "dark");
-        } else if (theme === "light") {
-            body.classList.remove("dark");
-            localStorage.setItem("theme", "light");
-        } else {
-            // Auto mode - check system preference
-            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    if (themeSelector) {
+        // Function to apply theme based on the selection
+        function applyTheme(theme) {
+            if (theme === "dark") {
                 body.classList.add("dark");
-            } else {
+                localStorage.setItem("theme", "dark");
+            } else if (theme === "light") {
                 body.classList.remove("dark");
+                localStorage.setItem("theme", "light");
+            } else {
+                // Auto mode - check system preference
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                    body.classList.add("dark");
+                } else {
+                    body.classList.remove("dark");
+                }
+                localStorage.setItem("theme", "auto");
             }
-            localStorage.setItem("theme", "auto");
         }
+
+        // Apply saved theme from local storage or default to auto
+        const savedTheme = localStorage.getItem("theme") || "auto";
+        themeSelector.value = savedTheme;
+        applyTheme(savedTheme);
+
+        // Event listener for theme selector change
+        themeSelector.addEventListener("change", (event) => {
+            applyTheme(event.target.value);
+        });
+
+        // Listener to update theme automatically if system theme changes in auto mode
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+            if (localStorage.getItem("theme") === "auto") {
+                applyTheme("auto");
+            }
+        });
     }
-
-    // Apply saved theme from local storage or default to auto
-    const savedTheme = localStorage.getItem("theme") || "auto";
-    themeSelector.value = savedTheme;
-    applyTheme(savedTheme);
-
-    // Event listener for theme selector change
-    themeSelector.addEventListener("change", (event) => {
-        applyTheme(event.target.value);
-    });
-
-    // Listener to update theme automatically if system theme changes in auto mode
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-        if (localStorage.getItem("theme") === "auto") {
-            applyTheme("auto");
-        }
-    });
 </script>
 </body>
 
