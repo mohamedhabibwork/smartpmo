@@ -15,7 +15,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 font-sans">
+<body class="{{ request()->routeIs('home') ? 'bg-gray-100 dark:bg-gray-900 dark:text-gray-100' : 'bg-[#f0f0f0]' }} text-gray-900 font-sans">
 
 <x-layout.header/>
 

@@ -7,6 +7,7 @@ Route::view('/','home')->name('home');
 Route::view('/company','company')->name('company');
 Route::view('/product-details','product-details')->name('product-details');
 Route::view('/solutions','solutions')->name('solutions');
+Route::view('/news','news.index')->name('news');
 Route::view('/products','products')->name('products');
 Route::view('/contact-us','contact-us')->name('contact');
 Route::view('/case-study','case-study')->name('case-study');
