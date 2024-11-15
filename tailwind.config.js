@@ -1,6 +1,7 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 
+
 /** @type {import('tailwindcss').Config} */
 export default {
     darkMode: ['selector', '[data-mode="dark"]','class'],
@@ -49,3 +50,5 @@ export default {
         forms,
     ],
 };
+// Initialization for ES Users
+

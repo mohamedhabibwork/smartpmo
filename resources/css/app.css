@@ -29,7 +29,7 @@
 }
 
 
-.x-boxes-grid .x-box-item:not(:last-child) {
+.x-boxes-grid .x-box-item {
     border-inline-end: 1px solid #000;
 }
 
@@ -41,4 +41,88 @@
 }
 .x-label {
     @apply block text-sm font-semibold mb-2 text-[#8d8d8d]
+}
+.page-header{
+    background-image: url("../../public/assets/Header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.send-img{
+    position: absolute;
+    top: 10px;
+    right: 32px;
+}
+.our-team{
+    background-color: rgba(95, 95, 95, 1);
+}
+.our-team h3,.our-team p{
+    color: rgba(202, 130, 43, 1);
+}
+.products{
+    background-color: rgba(217, 217, 217, 1);
+}
+.step{
+    background-color: rgba(41, 41, 41, 1);
+    border-right: 1px solid white;
+}
+.step-num{
+    background-color: rgba(202, 130, 43, 1);
+}
+.step h3{
+    color: white;
+}
+.step p{
+    color: white;
+}
+.gradient-background{
+    content: "";
+    background-color: rgba(202, 130, 43, 1);
+    bottom: 0;
+    left: -15px;
+}
+.about{
+    border: 1px solid black;
+}
+.section-gradient-background {
+    position: relative;
+    background: radial-gradient(circle at 5% 90%, rgba(233, 189, 135, 0.4), transparent 10%);
+    border-radius: 8px;
+}
+.solution{
+    background-color: rgba(217, 217, 217, 1);
+}
+.section-gradient-background-2{
+    position: relative;
+    background: radial-gradient(circle at 15% 50%, rgba(233, 189, 135, 0.4), transparent 10%);
+    border-radius: 8px;
+}
+.accordion{
+    background-color: rgba(100, 100, 100, 1);
+}
+.accordion-icon{
+    color: rgba(202, 130, 43, 1);
+}
+
+.small-circle{
+    background-color: rgba(5, 126, 106, 1);
+    padding: 10px;
+    border-radius: 50%;
+}
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+.swiper-pagination-bullet {
+    background: #4f46e5;
 }
