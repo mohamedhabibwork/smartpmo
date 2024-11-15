@@ -19,7 +19,7 @@
         <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
             <!-- Accordion Section -->
             <div
-                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
+                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-t-lg md:rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
                 <!-- Accordion Items -->
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <!-- Image Section -->
-            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-r-lg h-96 object-cover" style="object-fit: cover;">
+            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-b-lg md:rounded-r-lg h-96 object-cover" style="object-fit: cover;">
                 <source src="{{ asset('assets/4784453_Mumbai_India_1280x720.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -98,13 +98,13 @@
 
         <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
             <!-- Image Section -->
-            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-l-lg h-96 object-cover" style="object-fit: cover;">
-                <source src="{{ asset('assets/1472787_People_Industry_3840x2160.mp4') }}" type="video/mp4">
+            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-t-lg md:rounded-l-lg h-96 object-cover" style="object-fit: cover;">
+                <source src="{{ asset('assets/compress-people-industry.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
             <!-- Accordion Section -->
-            <div class="flex justify-center items-center flex-col bg-[#646464] dark:bg-gray-800 p-6 rounded-r-lg  w-full md:w-1/3 lg:w-1/4 h-auto md:h-96">
+            <div class="flex justify-center items-center flex-col bg-[#646464] dark:bg-gray-800 p-6 rounded-b-lg md:rounded-r-lg  w-full md:w-1/3 lg:w-1/4 h-auto md:h-96">
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
                         class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
