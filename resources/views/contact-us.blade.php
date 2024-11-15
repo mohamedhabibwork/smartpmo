@@ -15,17 +15,22 @@
             <div class="flex flex-col md:flex-row bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
 
                 <!-- Contact Information -->
-                <div class="bg-secondary-600 text-white p-8 md:w-1/3 flex justify-between flex-col">
+                <div class="relative bg-secondary-600 text-white p-8 md:w-1/3 flex justify-between flex-col contact-card">
+                    <div class=" hidden lg:inline absolute w-[250px] h-[250px] bg-teal-600 rounded-full opacity-70 bottom-[-100px] right-[-90px] "></div>
+                    <div class=" hidden lg:inline absolute w-[150px] h-[150px] bg-[#48484880] rounded-full opacity-70 bottom-[40px] right-[80px]"></div>
+
+                    <!-- Contact Content -->
                     <div>
                         <h3 class="text-2xl font-bold mb-2">Contact Information</h3>
                         <p class="mb-6 text-gray-300">Say something to start a live chat!</p>
                     </div>
 
-                    <div class="">
-                        <p class="flex items-center mb-10"><span class="material-icons mr-2"><i class="fa-solid mr-3 fa-phone-volume"></i></span> +1012 3456 789</p>
-                        <p class="flex items-center mb-10"><span class="material-icons mr-2"><i class="fa-solid mr-3 fa-envelope"></i></span> demo@gmail.com</p>
-                        <p class="flex items-center mb-10"><span class="material-icons mr-2"><i class="fa-solid mr-3 fa-location-dot"></i></span> 132 Dartmouth Street Boston, MA 02156, United States</p>
+                    <div>
+                        <p class="flex items-center mb-10"><i class="fa-solid fa-phone-volume mr-3"></i> +1012 3456 789</p>
+                        <p class="flex items-center mb-10"><i class="fa-solid fa-envelope mr-3"></i> demo@gmail.com</p>
+                        <p class="flex items-center mb-10"><i class="fa-solid fa-location-dot mr-3"></i> 132 Dartmouth Street Boston, MA 02156, United States</p>
                     </div>
+
                     <div class="flex mt-6 space-x-4">
                         <a href="#" class="text-white bg-black w-10 h-10 flex items-center justify-center rounded-full">
                             <i class="fab fa-twitter"></i>
@@ -35,9 +40,8 @@
                         </a>
                     </div>
                 </div>
-
                 <!-- Contact Form -->
-                <div class="p-8 md:w-2/3 bg-gray-50 dark:bg-gray-900">
+                <div class="p-8 md:w-2/3 bg-gray-50 dark:bg-gray-900 z-20">
                     <form action="#" method="POST" class="space-y-6">
                         <div class="flex space-x-4">
                             <div class="w-1/2">

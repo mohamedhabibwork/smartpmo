@@ -1,5 +1,4 @@
 <x-layout.app>
-
     <!-- Hero Section -->
     <section class="bg-cover bg-center h-64" style="background-image: url('{{ asset('assets/Header.png') }}');">
         <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
@@ -9,13 +8,24 @@
 
     <!-- Our Vision Section -->
     <section class="container mx-auto py-12 px-6">
-        <div class="flex flex-col md:flex-row items-start mb-12">
-            <img src="{{ asset('assets/0_Earth_Planet_1280x720 1.png') }}" alt="Vision Image" class="w-full md:w-1/2 rounded-lg mb-4 md:mb-0 md:mr-6">
-            <div class="md:w-1/2">
-                <h2 class="text-3xl font-bold mb-4">Our Vision</h2>
-                <p class="text-gray-700 dark:text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        <div class="container mx-auto py-12 px-6">
+            <div class="flex flex-col md:flex-row items-start gap-8">
+                <div class="w-full md:w-1/2 relative">
+                    <video autoplay loop muted class="w-full h-full rounded-lg shadow-md" style="object-fit: cover;">
+                        <source src="{{ asset('assets/0_Earth_Planet_1280x720.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-4">Our Vision</h2>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. A galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
             </div>
         </div>
+
 
         <!-- Our Mission Section -->
         <div class="flex flex-col md:flex-row items-start mb-12">
@@ -23,7 +33,12 @@
                 <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
                 <p class="text-gray-700 dark:text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
             </div>
-            <img src="{{ asset('assets/6662526_Wireless_Network_1280x720 1.png') }}" alt="Mission Image" class="w-full md:w-1/2 rounded-lg mb-4 md:mb-0">
+            <div class="w-full md:w-1/2 relative">
+                <video autoplay loop muted class="w-full h-full rounded-lg shadow-md" style="object-fit: cover;">
+                    <source src="{{ asset('assets/6662526_Wireless_Network_1280x720.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
 
         <!-- Our Story Section -->
@@ -45,47 +60,63 @@
         </section>
     </section>
 
-    <!-- Our Team Section -->
+    <!--our team-->
     <section class="container mx-auto py-12 px-6">
-        <div class="flex flex-col justify-start items-start mb-4">
-            <h2 class="text-3xl font-bold mb-2 text-center">Our Team</h2>
-            <p class="max-w-5xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="flex flex-col justify-start items-start mb-4 text-center md:text-left">
+            <h2 class="text-2xl md:text-3xl font-bold mb-2">Our Team</h2>
+            <p class="text-gray-700 dark:text-gray-300 max-w-5xl mx-auto md:mx-0">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-1 gap-8">
+
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-1">
             <!-- Team Member 1 -->
-            <div class="bg-gray-200 dark:bg-gray-700 rounded-lg flex justify-between items-center our-team gap-10">
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg flex flex-col lg:flex-row items-center our-team gap-6 p-6">
                 <div>
-                    <img src="{{ asset('assets/Mask group.png') }}" alt="Team Member 1" class="  mr-6">
+                    <img src="{{ asset('assets/Mask group.png') }}" alt="Team Member 1" class="w-32 md:w-48 ">
                 </div>
-                <div>
-                    <div class="">
-                        <h3 class="text-3xl font-bold">Dr. Hossam Jerdi</h3>
-                        <p class=" dark:text-gray-300">CEO & Founder</p>
-                    </div>
+                <div class="flex-1">
+                    <h3 class="text-xl md:text-2xl font-bold">Dr. Hossam Jerdi</h3>
+                    <p class="text-gray-600 dark:text-gray-300">CEO & Founder</p>
                 </div>
-                <div class="flex justify-center items-center ml-auto space-x-4  p-6">
-                    <a href="#" class="text-white border-solid border-2 flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-x-twitter"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-white border-solid border-2 flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-facebook"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-white border-solid border-2 flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-instagram"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-white border-solid border-2 flex items-center justify-center border-white p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-tiktok"></i> <!-- Replace with actual social icon --></a>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
                 </div>
             </div>
+
             <!-- Team Member 2 -->
-            <div class="bg-white dark:bg-gray-700 rounded-lg flex justify-between items-center our-team-2 gap-14">
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg flex flex-col lg:flex-row items-center our-team gap-6 p-6">
                 <div>
-                    <img src="{{ asset('assets/Mask group-2.png') }}" alt="Team Member 1" class=" w-72 mr-6">
+                    <img src="{{ asset('assets/Mask group-2.png') }}" alt="Team Member 2" class="w-32 md:w-48 ">
                 </div>
-                <div>
-                    <div class="">
-                        <h3 class="text-3xl font-bold">Khaoula Ben Khaled</h3>
-                        <p class=" dark:text-gray-300">UX Designer</p>
-                    </div>
+                <div class="flex-1">
+                    <h3 class="text-xl md:text-2xl font-bold">Khaoula Ben Khaled</h3>
+                    <p class="text-gray-600 dark:text-gray-300">UX Designer</p>
                 </div>
-                <div class="flex justify-center items-center ml-auto space-x-4  p-6">
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-x-twitter"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-facebook"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-instagram"></i> <!-- Replace with actual social icon --></a>
-                    <a href="#" class="text-black border-solid border-2 border-black flex items-center justify-center p-3 rounded-full w-10 h-10 text-center "><i class="fab fa-tiktok"></i> <!-- Replace with actual social icon --></a>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
                 </div>
             </div>
         </div>

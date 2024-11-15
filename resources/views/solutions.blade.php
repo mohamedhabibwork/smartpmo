@@ -16,10 +16,10 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row items-start mb-12 gap-6 px-4 md:px-6">
+        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
             <!-- Accordion Section -->
             <div
-                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-lg w-full md:w-1/2 lg:w-1/4 h-auto md:h-96">
+                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
                 <!-- Accordion Items -->
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
@@ -80,8 +80,10 @@
                 </div>
             </div>
             <!-- Image Section -->
-            <img src="{{ asset('assets/Mask group-3.png') }}" alt="Industries Image"
-                 class="w-full md:w-2/3 lg:w-1/2 rounded-lg h-96 object-cover">
+            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-r-lg h-96 object-cover" style="object-fit: cover;">
+                <source src="{{ asset('assets/4784453_Mumbai_India_1280x720.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </section>
 
@@ -94,28 +96,28 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row items-start mb-12 gap-6 px-4 md:px-6">
+        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
             <!-- Image Section -->
-            <img src="{{ asset('assets/Mask group-7.png') }}" alt="Ideal For Image"
-                 class="w-full md:w-2/3 lg:w-1/2 rounded-lg h-96 object-cover">
+            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-l-lg h-96 object-cover" style="object-fit: cover;">
+                <source src="{{ asset('assets/1472787_People_Industry_3840x2160.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
             <!-- Accordion Section -->
-            <div
-                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-lg w-full md:w-1/2 lg:w-1/4 h-auto md:h-96">
-
+            <div class="flex justify-center items-center flex-col bg-[#646464] dark:bg-gray-800 p-6 rounded-r-lg  w-full md:w-1/3 lg:w-1/4 h-auto md:h-96">
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
-                        class="btn-accordion w-full flex justify-between items-center py-5 text-slate-800 toggle-accordion">
+                        class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
                         <span class="font-bold text-3xl">Infrastructure</span>
                         <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 text-orange-600">
                             <path
                                 d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
                         </svg>
                     </span>
                     </button>
                     <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-slate-500">
+                        <div class="pb-5 text-sm text-white">
                             MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
                             you can turn the complexity of your project into an optimal sequence of actions that reduce
                             risk while optimizing time and budget.
@@ -124,17 +126,17 @@
                 </div>
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
-                        class="btn-accordion w-full flex justify-between items-center py-5 text-slate-800 toggle-accordion">
+                        class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
                         <span class="font-bold text-3xl">Infrastructure</span>
                         <span class="x-icon text-slate-800 transition-transform duration-300">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                               class="w-4 h-4">
-                            <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z"/>
-                          </svg>
-                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 text-orange-600">
+                            <path
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
+                        </svg>
+                    </span>
                     </button>
-                    <div class="x-content max-h-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-slate-500">
+                    <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="pb-5 text-sm text-white">
                             MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
                             you can turn the complexity of your project into an optimal sequence of actions that reduce
                             risk while optimizing time and budget.
@@ -143,17 +145,17 @@
                 </div>
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
-                        class="btn-accordion w-full flex justify-between items-center py-5 text-slate-800 toggle-accordion">
+                        class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
                         <span class="font-bold text-3xl">Infrastructure</span>
                         <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 text-orange-600">
                             <path
                                 d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
                         </svg>
                     </span>
                     </button>
                     <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-slate-500">
+                        <div class="pb-5 text-sm text-white">
                             MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
                             you can turn the complexity of your project into an optimal sequence of actions that reduce
                             risk while optimizing time and budget.

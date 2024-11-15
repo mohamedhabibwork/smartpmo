@@ -160,7 +160,7 @@
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
-                    <a href="{{ route('blog-detail') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
+                    <a href="{{ route('news') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
                     <span class="text-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -179,7 +179,7 @@
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
-                    <a href="{{ route('blog-detail') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
+                    <a href="{{ route('news') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
                     <span class="text-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -198,7 +198,7 @@
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
-                    <a href="{{ route('blog-detail') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
+                    <a href="{{ route('news') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
                     <span class="text-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -217,7 +217,7 @@
                     <p class="text-black dark:text-gray-300 mb-4 font-semibold">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
-                    <a href="{{ route('blog-detail') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
+                    <a href="{{ route('news') }}" class="mt-auto inline-flex items-center justify-center w-12 h-12 bg-black dark:bg-secondary-600 text-white rounded-full hover:text-white hover:bg-secondary-500">
                     <span class="text-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />

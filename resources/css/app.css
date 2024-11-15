@@ -59,12 +59,23 @@
 .send-img {
     @apply absolute top-[10px] right-[32px];
 }
-.our-team{
-    background-color: rgba(95, 95, 95, 1);
-}
 
-.our-team h3, .our-team p {
-    color: rgba(202, 130, 43, 1);
+
+.our-team{
+    background-color: white;
+    transition: .3s;
+    h3{
+        color: rgba(202, 130, 43, 1);
+    }
+    p{
+        color: rgba(202, 130, 43, 1);
+    }
+}
+.our-team:hover{
+    background-color: #5F5F5F;
+    a{
+        @apply border-white text-white
+    }
 }
 
 .products {

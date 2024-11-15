@@ -19,7 +19,7 @@
             <p class="text-gray-600 dark:text-gray-300 mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
             </p>
-            <a href="{{route('products')}}" class="text-primary-600 hover:underline">Learn more</a>
+            <a href="{{route('product-details')}}" class="text-primary-600 hover:underline">Learn more</a>
 
             <div class="mt-6 p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md flex items-center">
                 <img src="{{ asset('assets/image 60.png') }}" alt="Logo" class="w-12 h-12 mr-4"> <!-- Replace with actual logo image -->
@@ -44,7 +44,7 @@
             <p class="text-gray-600 dark:text-gray-300 mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
             </p>
-            <a href="{{route('products')}}" class="text-primary-600 hover:underline">Learn more</a>
+            <a href="{{route('product-details')}}" class="text-primary-600 hover:underline">Learn more</a>
 
             <div class="mt-6 p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md flex items-center">
                 <img src="{{ asset('assets/image 60.png') }}" alt="Logo" class="w-12 h-12 mr-4"> <!-- Replace with actual logo image -->
@@ -69,7 +69,7 @@
             <p class="text-gray-600 dark:text-gray-300 mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
             </p>
-            <a href="{{route('products')}}" class="text-primary-600 hover:underline">Learn more</a>
+            <a href="{{route('product-details')}}" class="text-primary-600 hover:underline">Learn more</a>
 
             <div class="mt-6 p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md flex items-center">
                 <img src="{{ asset('assets/image 60.png') }}" alt="Logo" class="w-12 h-12 mr-4"> <!-- Replace with actual logo image -->
