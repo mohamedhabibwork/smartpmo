@@ -28,16 +28,20 @@
 
 
         <!-- Our Mission Section -->
-        <div class="flex flex-col md:flex-row items-start mb-12">
-            <div class="md:w-1/2 md:mr-6">
-                <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
-                <p class="text-gray-700 dark:text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-            </div>
-            <div class="w-full md:w-1/2 relative">
-                <video autoplay loop muted class="w-full h-full rounded-lg shadow-md" style="object-fit: cover;">
-                    <source src="{{ asset('assets/6662526_Wireless_Network_1280x720.mp4') }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+        <div class="container mx-auto py-12 px-6">
+            <div class="flex flex-col md:flex-row items-start gap-8">
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. A galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 relative">
+                    <video autoplay loop muted class="w-full h-full rounded-lg shadow-md" style="object-fit: cover;">
+                        <source src="{{ asset('assets/6662526_Wireless_Network_1280x720.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </div>
 
@@ -49,12 +53,10 @@
             <div class="bg-black bg-opacity-50 w-full h-full absolute rounded-lg"></div>
             <div class="relative z-10 text-white max-w-7xl mx-auto px-6">
                 <h1 class="text-4xl font-bold mb-4">Our Story</h1>
-
                 <p class="text-lg mb-4">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     <span id="moreText" class="hidden md:inline">when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
                 </p>
-
                 <button id="readMoreBtn" class="text-primary-500 underline md:hidden pb-4" onclick="toggleReadMore()">Read More</button>
             </div>
         </section>
@@ -76,8 +78,8 @@
                     <img src="{{ asset('assets/Mask group.png') }}" alt="Team Member 1" class="w-32 md:w-48 ">
                 </div>
                 <div class="flex-1">
-                    <h3 class="text-xl md:text-2xl font-bold">Dr. Hossam Jerdi</h3>
-                    <p class="text-gray-600 dark:text-gray-300">CEO & Founder</p>
+                    <h3 class="text-xl md:text-2xl text-[#CA822B] font-bold">Dr. Hossam Jerdi</h3>
+                    <p class=" text-[#CA822B] dark:text-gray-300">CEO & Founder</p>
                 </div>
                 <div class="flex space-x-4 mt-4 md:mt-0">
                     <a href="#" class="text-black dark:text-white border border-gray-300 dark:border-white p-3 rounded-full">

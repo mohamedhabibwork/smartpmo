@@ -10,8 +10,8 @@
     <!-- Industries Section -->
     <section class="container mx-auto py-12 px-6">
         <div class="px-4 md:px-6">
-            <h2 class="text-3xl font-bold mb-4">Industries</h2>
-            <p class="text-gray-700 dark:text-gray-300 mb-8 max-w-5xl">Lorem Ipsum is simply dummy text of the printing
+            <h2 class="text-5xl font-extrabold mb-4">Industries</h2>
+            <p class="text-gray-700 dark:text-gray-300 mb-8 max-w-5xl">Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
@@ -19,7 +19,7 @@
         <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
             <!-- Accordion Section -->
             <div
-                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-t-lg md:rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
+                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-t-lg md:rounded-r-none md:rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
                 <!-- Accordion Items -->
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <!-- Image Section -->
-            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-b-lg md:rounded-r-lg h-96 object-cover" style="object-fit: cover;">
+            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-b-lg md:rounded-l-none md:rounded-r-lg h-96 object-cover" style="object-fit: cover;">
                 <source src="{{ asset('assets/4784453_Mumbai_India_1280x720.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -98,23 +98,23 @@
 
         <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
             <!-- Image Section -->
-            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-t-lg md:rounded-l-lg h-96 object-cover" style="object-fit: cover;">
+            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-t-lg md:rounded-r-none  md:rounded-l-lg h-96 object-cover" style="object-fit: cover;">
                 <source src="{{ asset('assets/compress-people-industry.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
             <!-- Accordion Section -->
-            <div class="flex justify-center items-center flex-col bg-[#646464] dark:bg-gray-800 p-6 rounded-b-lg md:rounded-r-lg  w-full md:w-1/3 lg:w-1/4 h-auto md:h-96">
+            <div class="flex justify-center items-center flex-col bg-[#646464] dark:bg-gray-800 p-6 rounded-b-lg md:rounded-l-none md:rounded-r-lg  w-full md:w-1/3 lg:w-1/4 h-auto md:h-96">
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
                         class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
                         <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 text-orange-600">
+                        <span class="x-icon text-[#CA822B] transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ">
                             <path
                                 d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
                         </svg>
-                    </span>
+                        </span>
                     </button>
                     <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="pb-5 text-sm text-white">
@@ -126,16 +126,16 @@
                 </div>
                 <div class="w-full border-b border-slate-200 x-accordion">
                     <button
-                        class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
+                        class="btn-accordion text-white  w-full flex justify-between items-center py-5 toggle-accordion">
                         <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 text-orange-600">
+                        <span class="x-icon text-[#CA822B] transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
                             <path
                                 d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
                         </svg>
                     </span>
                     </button>
-                    <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="x-content max-h-full overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="pb-5 text-sm text-white">
                             MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
                             you can turn the complexity of your project into an optimal sequence of actions that reduce
@@ -147,8 +147,8 @@
                     <button
                         class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
                         <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 text-orange-600">
+                        <span class="x-icon text-[#CA822B] transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ">
                             <path
                                 d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
                         </svg>

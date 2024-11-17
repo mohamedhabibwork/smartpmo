@@ -16,10 +16,11 @@
                 <h2 class="text-3xl md:text-6xl font-bold text-gray-900 dark:text-gray-100">Discover. Learn. Grow</h2>
                 <p class="x-subtitle"><span>Our Blog</span></p>
             </div>
+
             <div class="flex flex-col justify-center items-center">
-                <div>
-                    <img src="{{asset('assets/blog-1.png')}}">
-                    <div class="flex justify-between items-center mt-8  ">
+                <div class="image-container">
+                    <img src="{{asset('assets/blog-1.png')}}" class="responsive-image">
+                    <div class="flex justify-between items-center mt-8">
                         <h3 class="text-3xl">Lorem ipsum</h3>
                         <p>24 Sep 2024</p>
                     </div>
@@ -28,47 +29,16 @@
 
 
             <section class="container mx-auto  px-6">
-                <div class="grid grid-cols-1  md:grid-cols-12 gap-6">
-                    <div class="md:col-span-6 p-6 rounded-lg ">
-                        <img src="{{asset('assets/blog-1.png')}}">
+                <div class="grid grid-cols-1  md:grid-cols-12  items-center">
+                    <div class="md:col-span-6 pr-2 rounded-lg ">
+                        <img src="{{asset('assets/blog-1.png')}}" class="w-full">
                         <div class="flex justify-between items-center mt-8  ">
                             <h3 class="text-xl">Lorem ipsum</h3>
                             <p>24 Sep 2024</p>
                         </div>
                     </div>
 
-                    <div class="md:col-span-6  p-6 rounded-lg ">
-                        <img src="{{asset('assets/blog-1.png')}}">
-                        <div class="flex justify-between items-center mt-8  ">
-                            <h3 class="text-xl">Lorem ipsum</h3>
-                            <p>24 Sep 2024</p>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            <section class="container mx-auto  px-6">
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-
-                    <!-- 8-column section -->
-                    <div class="md:col-span-4 p-6 rounded-lg ">
-                        <img src="{{asset('assets/blog-1.png')}}">
-                        <div class="flex justify-between items-center mt-8  ">
-                            <h3 class="text-xl">Lorem ipsum</h3>
-                            <p>24 Sep 2024</p>
-                        </div>
-                    </div>
-
-                    <!-- 4-column section -->
-                    <div class="md:col-span-4  p-6 rounded-lg ">
-                        <img src="{{asset('assets/blog-1.png')}}">
-                        <div class="flex justify-between items-center mt-8  ">
-                            <h3 class="text-xl">Lorem ipsum</h3>
-                            <p>24 Sep 2024</p>
-                        </div>
-                    </div>
-
-                    <div class="md:col-span-4  p-6 rounded-lg ">
+                    <div class="md:col-span-6  pr-2 rounded-lg ">
                         <img src="{{asset('assets/blog-1.png')}}">
                         <div class="flex justify-between items-center mt-8  ">
                             <h3 class="text-xl">Lorem ipsum</h3>
@@ -82,7 +52,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
 
                     <!-- 8-column section -->
-                    <div class="md:col-span-4 p-6 rounded-lg ">
+                    <div class="md:col-span-4  rounded-lg ">
                         <img src="{{asset('assets/blog-1.png')}}">
                         <div class="flex justify-between items-center mt-8  ">
                             <h3 class="text-xl">Lorem ipsum</h3>
@@ -91,7 +61,7 @@
                     </div>
 
                     <!-- 4-column section -->
-                    <div class="md:col-span-4  p-6 rounded-lg ">
+                    <div class="md:col-span-4   rounded-lg ">
                         <img src="{{asset('assets/blog-1.png')}}">
                         <div class="flex justify-between items-center mt-8  ">
                             <h3 class="text-xl">Lorem ipsum</h3>
@@ -99,7 +69,38 @@
                         </div>
                     </div>
 
-                    <div class="md:col-span-4  p-6 rounded-lg ">
+                    <div class="md:col-span-4   rounded-lg ">
+                        <img src="{{asset('assets/blog-1.png')}}">
+                        <div class="flex justify-between items-center mt-8  ">
+                            <h3 class="text-xl">Lorem ipsum</h3>
+                            <p>24 Sep 2024</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="container mx-auto  px-6">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+
+                    <!-- 8-column section -->
+                    <div class="md:col-span-4  rounded-lg ">
+                        <img src="{{asset('assets/blog-1.png')}}">
+                        <div class="flex justify-between items-center mt-8  ">
+                            <h3 class="text-xl">Lorem ipsum</h3>
+                            <p>24 Sep 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- 4-column section -->
+                    <div class="md:col-span-4   rounded-lg ">
+                        <img src="{{asset('assets/blog-1.png')}}">
+                        <div class="flex justify-between items-center mt-8  ">
+                            <h3 class="text-xl">Lorem ipsum</h3>
+                            <p>24 Sep 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-4   rounded-lg ">
                         <img src="{{asset('assets/blog-1.png')}}">
                         <div class="flex justify-between items-center mt-8  ">
                             <h3 class="text-xl">Lorem ipsum</h3>

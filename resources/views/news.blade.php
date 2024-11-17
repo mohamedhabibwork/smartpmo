@@ -23,8 +23,8 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 ">
                         <!-- Card 1 -->
                         <div class="flex flex-col justify-between p-4 md:border-r border-gray-800 dark:border-gray-300">
-                            <div class="flex items-center mb-4">
-                                <img src="{{ asset('assets/fi_1221905.png') }}" alt="Icon" class="w-8 h-8 mr-2">
+                            <div class="flex flex-col items-start mb-4">
+                                <img src="{{ asset('assets/fi_1221905.png') }}" alt="Icon" class="w-8 h-8 mb-4">
                                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Architectural Design & Planning</h3>
                             </div>
                             <img src="{{ asset('assets/Mask group (1).png') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4">
@@ -34,8 +34,8 @@
                         </div>
                         <!-- Card 2 -->
                         <div class="flex flex-col justify-between p-4 md:border-r border-gray-800 dark:border-gray-300" data-aos="flip-right" data-aos-duration="700">
-                            <div class="flex items-center mb-4">
-                                <img src="{{ asset('assets/fi_1544051.png') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
+                            <div class="flex flex-col items-start mb-4">
+                                <img src="{{ asset('assets/fi_1544051.png') }}" alt="Icon" class="w-8 h-8 mb-4"> <!-- Replace with actual icon -->
                                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Interior Design & Styling Services</h3>
                             </div>
                             <img src="{{ asset('assets/Mask group (2).png') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
@@ -46,8 +46,8 @@
                         </div>
                         <!-- Card 3 -->
                         <div class="flex flex-col justify-between p-4 md:border-r border-gray-800 dark:border-gray-300" data-aos="flip-right" data-aos-duration="1000">
-                            <div class="flex items-center mb-4">
-                                <img src="{{ asset('assets/fi_1624169.png') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
+                            <div class="flex flex-col items-start mb-4">
+                                <img src="{{ asset('assets/fi_1624169.png') }}" alt="Icon" class="w-8 h-8 mb-4"> <!-- Replace with actual icon -->
                                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Decorative Items & Furniture</h3>
                             </div>
                             <img src="{{ asset('assets/Mask group (3).png') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->
@@ -57,8 +57,8 @@
                         </div>
                         <!-- Card 4 -->
                         <div class="flex flex-col justify-between p-4 md:border-r border-gray-800 dark:border-gray-300" data-aos="flip-right" data-aos-duration="1300">
-                            <div class="flex items-center mb-4">
-                                <img src="{{ asset('assets/fi_3306960.png') }}" alt="Icon" class="w-8 h-8 mr-2"> <!-- Replace with actual icon -->
+                            <div class="flex flex-col items-start mb-4">
+                                <img src="{{ asset('assets/fi_3306960.png') }}" alt="Icon" class="w-8 h-8 mb-4"> <!-- Replace with actual icon -->
                                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-widest">Turnkey Services & Coordination</h3>
                             </div>
                             <img src="{{ asset('assets/Mask group-5.png') }}" alt="News Image" class="w-full h-40 object-cover rounded-lg mb-4"> <!-- Replace with actual image -->

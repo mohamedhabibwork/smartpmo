@@ -14,16 +14,18 @@
     </section>
 
     <!-- Who We Are Section -->
-    <section class="container mx-auto py-12 px-8 flex flex-col md:flex-row items-center section-gradient-background">
+    <section class="container mx-auto py-12 px-8 ">
+            <div class="border-2 border-gray-500 flex flex-col md:flex-row items-center section-gradient-background px-10 ">
+                <div class="md:w-1/2 mb-8 md:mb-0" data-aos="flip-right" data-aos-duration="1000">
+                    <h2 class="text-3xl font-bold mb-4">Who we are?</h2>
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 max-w-2xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <a href="#" class="bg-primary-700 hover:bg-primary-800 text-white font-semibold px-4 py-2 rounded-md mt-10">Learn More</a>
+                </div>
+                <div class="md:w-1/2" data-aos="flip-left" data-aos-duration="1000">
+                    <img src="{{ asset('assets/freepik__background__56703.png') }}" alt="Robot" class="w-full h-auto rounded-lg">
+                </div>
+            </div>
 
-            <div class="md:w-1/2 mb-8 md:mb-0" data-aos="flip-right" data-aos-duration="1000">
-                <h2 class="text-3xl font-bold mb-4">Who we are?</h2>
-                <p class="text-gray-700 dark:text-gray-300 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <a href="#" class="bg-primary-700 hover:bg-primary-800 text-white font-semibold px-4 py-2 rounded-md mt-10">Learn More</a>
-            </div>
-            <div class="md:w-1/2" data-aos="flip-left" data-aos-duration="1000">
-                <img src="{{ asset('assets/freepik__background__56703.png') }}" alt="Robot" class="w-full h-auto rounded-lg">
-            </div>
 
 
     </section>
@@ -56,7 +58,7 @@
                 <!-- Live Projects -->
                 <div data-aos="flip-left" data-aos-duration="1000">
                     <h3 class="text-4xl font-bold text-gray-800 dark:text-gray-200 mb-2">Live Projects</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    <p class="text-gray-600 dark:text-gray-300 mb-4 max-w-2xl">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                         industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
@@ -71,7 +73,7 @@
                 <!-- Project Postmortem -->
                 <div data-aos="flip-left" data-aos-duration="1500">
                     <h3 class="text-4xl font-bold text-gray-800 dark:text-gray-200 mb-2">Project Postmortem</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    <p class="text-gray-600 dark:text-gray-300 mb-4 max-w-2xl">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                         industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
@@ -117,7 +119,7 @@
   <!-- Our Products Section with Responsive Tabs -->
     <x-products/>
     <!-- Consulting Team Section -->
-    <section class="container mx-auto p-8 md:p-16 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
+    <section class="container mx-auto p-8  md:p-16 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
         <!-- Text Content -->
         <div class="md:w-2/3" data-aos="flip-right" data-aos-duration="1000">
             <h2 class="text-3xl md:text-5xl font-normal text-gray-900 dark:text-gray-100 mb-4">Our consulting team drives your success</h2>
@@ -232,13 +234,13 @@
     </section>
 
 
-    <div class="bg-gray-100 flex items-center justify-center">
-        <section class="relative w-full min-h-[500px] bg-cover bg-center flex items-center justify-center" style="background-image: url('{{ asset('assets/freepik__expand__71645.png') }}');">
+    <div class="bg-gray-100 flex items-center justify-center w-full ">
+        <section class="relative  min-h-[500px]  bg-cover bg-center flex items-center justify-center" style="background-image: url('{{ asset('assets/freepik__expand__71645.png') }}');">
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
             <!-- Outer Border Box -->
-            <div class="w-11/12 md:w-3/4 h-4/5 border-4 border-white rounded-2xl p-5" data-aos="flip-right" data-aos-duration="1000">
+            <div class="w-11/12  h-4/5 border-4 border-white rounded-2xl p-5" data-aos="flip-right" data-aos-duration="1000">
                 <!-- Centered Content Box -->
                 <div class="relative z-10 max-w-full p-8 md:p-12 bg-transparent">
                     <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">How can we help you today?</h1>
@@ -248,8 +250,6 @@
                     <a href="#" class="bg-primary-600 hover:bg-primary-700 text-white font-semibold px-6 py-3 rounded-md">Contact Us</a>
                 </div>
             </div>
-
-
         </section>
     </div>
     <!-- Help Section -->
