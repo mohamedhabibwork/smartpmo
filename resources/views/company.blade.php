@@ -17,7 +17,7 @@
                     </video>
                 </div>
 
-                <div class="w-full md:w-1/2">
+                <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration = '1000'>
                     <h2 class="text-3xl font-bold mb-4">Our Vision</h2>
                     <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. A galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -30,7 +30,7 @@
         <!-- Our Mission Section -->
         <div class="container mx-auto py-12 px-6">
             <div class="flex flex-col md:flex-row items-start gap-8">
-                <div class="w-full md:w-1/2">
+                <div class="w-full md:w-1/2" data-aos="fade-right" data-aos-duration = '1000'>
                     <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
                     <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. A galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -63,7 +63,7 @@
     </section>
 
     <!--our team-->
-    <section class="container mx-auto py-12 px-6">
+    <section class="container mx-auto py-12 px-6" data-aos="fade-right" data-aos-duration = "1000">
         <div class="flex flex-col justify-start items-start mb-4 text-center md:text-left">
             <h2 class="text-2xl md:text-3xl font-bold mb-2">Our Team</h2>
             <p class="text-gray-700 dark:text-gray-300 max-w-5xl mx-auto md:mx-0">
@@ -73,7 +73,7 @@
 
         <div class="grid grid-cols-1 gap-8 md:grid-cols-1">
             <!-- Team Member 1 -->
-            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg flex flex-col lg:flex-row items-center our-team gap-6 p-6">
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg flex flex-col lg:flex-row items-center our-team gap-6 p-6" data-aos="flip-right" data-aos-duration="1000">
                 <div>
                     <img src="{{ asset('assets/Mask group.png') }}" alt="Team Member 1" class="w-32 md:w-48 ">
                 </div>
@@ -98,7 +98,7 @@
             </div>
 
             <!-- Team Member 2 -->
-            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg flex flex-col lg:flex-row items-center our-team gap-6 p-6">
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg flex flex-col lg:flex-row items-center our-team gap-6 p-6" data-aos="flip-right" data-aos-duration="1000">
                 <div>
                     <img src="{{ asset('assets/Mask group-2.png') }}" alt="Team Member 2" class="w-32 md:w-48 ">
                 </div>

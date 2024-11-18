@@ -134,7 +134,7 @@
             <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
             <!-- Outer Border Box -->
-            <div class="w-11/12  h-4/5 border-4 border-white rounded-2xl p-5" >
+            <div class="w-11/12  h-4/5 border-4 border-white rounded-2xl p-5" data-aos="flip-right" data-aos-duration="1000">
                 <!-- Centered Content Box -->
                 <div class="relative z-10 max-w-full p-8 md:p-12 bg-transparent">
                     <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Still got questions or need a tailor-made plan?</h1>

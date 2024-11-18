@@ -1,12 +1,12 @@
 <x-layout.app>
 
     <!-- Hero Section with Video Background -->
-    <section class="relative w-full h-screen flex justify-center items-center text-center">
+    <section class="relative w-full h-screen flex justify-start items-start ">
         <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover x-rotate-y" style="z-index: -1;">
             <source src="{{ asset('assets/Ai_Robotic.mp4') }}" type="video/mp4"> <!-- Replace with actual video path -->
         </video>
         <div class="bg-black bg-opacity-50 w-full h-full absolute"></div>
-        <div class="relative z-10 text-white max-w-2xl  px-6 flex justify-center items-center flex-col ml-6">
+        <div class="relative z-10 text-white max-w-2xl  px-6 flex justify-center m-auto  items-start flex-col ml-6">
             <h1 class="text-4xl font-bold mb-4">AI Platform for Project Management Excellence</h1>
             <p class="text-lg mb-8">Re-imagine what is controllable in project management</p>
             <a href="#" class="bg-primary-700 hover:bg-primary-800 text-white font-semibold px-6 py-3 rounded-md">Request Demo</a>
@@ -15,14 +15,14 @@
 
     <!-- Who We Are Section -->
     <section class="container mx-auto py-12 px-8 ">
-            <div class="border-2 border-gray-500 flex flex-col md:flex-row items-center section-gradient-background px-10 ">
+            <div class="border-2 border-gray-500 flex flex-col md:flex-row justify-between items-center section-gradient-background px-10 ">
                 <div class="md:w-1/2 mb-8 md:mb-0" data-aos="flip-right" data-aos-duration="1000">
                     <h2 class="text-3xl font-bold mb-4">Who we are?</h2>
                     <p class="text-gray-700 dark:text-gray-300 mb-4 max-w-2xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <a href="#" class="bg-primary-700 hover:bg-primary-800 text-white font-semibold px-4 py-2 rounded-md mt-10">Learn More</a>
                 </div>
-                <div class="md:w-1/2" data-aos="flip-left" data-aos-duration="1000">
-                    <img src="{{ asset('assets/freepik__background__56703.png') }}" alt="Robot" class="w-full h-auto rounded-lg">
+                <div class="" data-aos="flip-left" data-aos-duration="1000">
+                    <img src="{{ asset('assets/robot.png') }}" width="383" height="598" alt="Robot" class="rounded-lg">
                 </div>
             </div>
 
@@ -91,7 +91,7 @@
 
 
     <!-- How It Works Section -->
-    <section class="container mx-auto py-12 px-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg section-gradient-background">
+    <section class="container mx-auto py-12 px-6 bg-gray-100 dark:bg-gray-800 rounded-lg  section-gradient-background">
         <div class="flex justify-start items-start flex-col" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="text-3xl font-bold text-center mb-2">How It Works</h2>
             <p class=" text-gray-700 dark:text-gray-300 mb-12 max-w-5xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -102,12 +102,12 @@
                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">Digest & Accumulate</h3>
                 <p class="text-gray-600 dark:text-gray-300 mb-4 max-w-2xl">WWe integrate data from your project management software (Primavera P6, Microsoft Project, Asta Powerproject, etc.), Excel and PDF reports, using our automated secured data connectors</p>
             </div>
-            <div class="p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md flex flex-col items-start step"data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+            <div class="p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md flex flex-col items-start step" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
                 <span class="text-xl font-bold text-white bg-secondary-600 rounded-full px-4 py-2 mb-4 step-num">2</span>
                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">Analyze & Learn</h3>
                 <p class="text-gray-600 dark:text-gray-300 mb-4">Our proprietary AI algorithms learn and transfer experience from historical projects</p>
             </div>
-            <div class="p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md flex flex-col items-start step"data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900">
+            <div class="p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md flex flex-col items-start step" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900">
                 <span class="text-xl font-bold text-white bg-secondary-600 rounded-full px-4 py-2 mb-4 step-num">3</span>
                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">Project Intelligence</h3>
                 <p class="text-gray-600 dark:text-gray-300 mb-4">Predict project outcomes, predict and measure unforeseen risks, recommend corrective actions throughout the project lifecycle</p>

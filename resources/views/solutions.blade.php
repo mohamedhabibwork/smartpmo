@@ -9,14 +9,14 @@
 
     <!-- Industries Section -->
     <section class="container mx-auto py-12 px-6">
-        <div class="px-4 md:px-6">
+        <div class="px-4 md:px-6" data-aos="fade-right" data-aos-duration ="1000">
             <h2 class="text-5xl font-extrabold mb-4">Industries</h2>
             <p class="text-gray-700 dark:text-gray-300 mb-8 max-w-5xl">Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
+        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6" data-aos="fade-down" data-aos-duration ="1000">
             <!-- Accordion Section -->
             <div
                 class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-t-lg md:rounded-r-none md:rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
@@ -89,14 +89,14 @@
 
     <!-- Ideal For Section -->
     <section class="container mx-auto py-12 px-6">
-        <div class="px-4 md:px-6">
+        <div class="px-4 md:px-6" data-aos="fade-left" data-aos-duration ="1000">
             <h2 class="text-3xl font-bold mb-4">Ideal For</h2>
             <p class="text-gray-700 dark:text-gray-300 mb-8 max-w-5xl">Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6">
+        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6" data-aos="fade-up" data-aos-duration ="1000">
             <!-- Image Section -->
             <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-t-lg md:rounded-r-none  md:rounded-l-lg h-96 object-cover" style="object-fit: cover;">
                 <source src="{{ asset('assets/compress-people-industry.mp4') }}" type="video/mp4">

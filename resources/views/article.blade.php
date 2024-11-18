@@ -12,7 +12,7 @@
     <section class="container mx-auto py-12 px-6">
         <!-- Case Study Entries -->
         <div class="space-y-12">
-            <div class=" flex justify-center items-center mb-12">
+            <div class=" flex justify-center items-center mb-12" data-aos="fade-down" data-aos-duration ="1000">
                 <img src="{{asset('assets/news.png')}}">
             </div>
         </div>
@@ -21,12 +21,12 @@
             <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
 
                 <!-- 8-column section -->
-                <div class="md:col-span-8 p-6 rounded-lg ">
+                <div class="md:col-span-8 p-6 rounded-lg " data-aos="fade-right" data-aos-duration ="1000">
                     <div class="flex justify-between items-center mb-5">
                         <h3 class="font-bold text-3xl">Lorem ipsum</h3>
                         <p>24 Sep 2024</p>
                     </div>
-                    <div class="relative overflow-hidden md:overflow-visible" id="text-container">
+                    <div class="relative overflow-hidden md:overflow-visible" id="text-container" >
                         <p class="text-gray-700 md:leading-9">
                             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                             <span class="hidden lg:inline" id="extra-text">
@@ -41,9 +41,9 @@
                 <!-- 4-column section -->
                 <div class="md:col-span-4  p-6 rounded-lg ">
                    <div>
-                       <img src="{{asset('assets/art-1.png')}}" class="mb-5">
-                       <img src="{{asset('assets/art-2.png')}}" class="mb-5">
-                       <img src="{{asset('assets/art-3.png')}}">
+                       <img src="{{asset('assets/art-1.png')}}" class="mb-5" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                       <img src="{{asset('assets/art-2.png')}}" class="mb-5" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                       <img src="{{asset('assets/art-3.png')}}" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
                    </div>
                 </div>
 

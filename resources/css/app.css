@@ -159,8 +159,14 @@
     width: 100%;
     height: auto;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
+    .lg\:ml-20 {
+        margin-left: 80px!important;
+    }
+}
+@media (max-width: 1440px) {
     .lg\:ml-20 {
         margin-left: 0!important;
     }
 }
+
