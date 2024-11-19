@@ -14,12 +14,9 @@
             <img src="{{asset('assets/Mask group-8.png')}}">
         </div>
         <section class="container  py-12 px-4">
-            <div class="relative flex gap-24  flex-col items-center">
-                <!-- Vertical Line -->
-                <div class="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2" data-aos="fade-down" data-aos-duration="1000" ></div>
-
+            <div class="relative flex h-screen flex-col items-center">
                 <!-- Timeline Item 1 -->
-                <div class="flex justify-start items-center md:flex-row w-full   py-8">
+                <div class="flex justify-start items-center md:flex-row w-full relative   py-8 timelineContent" >
                     <div class="flex justify-start w-full md:w-1/2 pr-8">
                         <div class="max-w-md " data-aos="fade-right" data-aos-duration="1000">
                             <h3 class="text-xl font-bold">Feature 1</h3>
@@ -28,17 +25,18 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center w-12 h-12 bg-white border-2 border-black rounded-full absolute left-1/2 transform -translate-x-1/2">
+                    <div class="flex justify-center items-center w-12 h-12 z-20 bg-white border-2 border-black rounded-full absolute left-1/2 transform -translate-x-1/2">
                         <!-- Icon in the middle -->
                         <span class="text-green-500 font-bold" data-aos="fade-down" data-aos-duration="1000" ><div class="small-circle" ></div></span>
                     </div>
                     <div class="flex justify-end w-full md:w-1/2 pl-8" data-aos="fade-left" data-aos-duration="1000">
                         <img src="{{asset('assets/image.png')}}" alt="Feature Image" class="w-64 h-auto rounded-lg shadow-md">
                     </div>
+                    <div class="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2 z-0" data-aos="fade-down" data-aos-duration="1000" id="verticalLine"></div>
                 </div>
 
                 <!-- Timeline Item 2 -->
-                <div class="flex justify-start items-center flex-row-reverse gap-14  w-full  py-8">
+                <div class="flex justify-start items-center flex-row-reverse gap-14  w-full relative  py-8 timelineContent" >
                     <div class="flex justify-end w-full md:w-1/2 pl-8">
                         <div class="max-w-md " data-aos="fade-left" data-aos-duration="1000">
                             <h3 class="text-xl font-bold">Feature 2</h3>
@@ -47,16 +45,17 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center w-12 h-12 bg-white border-2 border-black rounded-full absolute left-1/2 transform -translate-x-1/2">
+                    <div class="flex justify-center items-center z-20 w-12 h-12 bg-white border-2 border-black rounded-full absolute left-1/2 transform -translate-x-1/2">
                         <span class="text-green-500 font-bold" data-aos="fade-down" data-aos-duration="1000"><div class="small-circle"></div></span>
                     </div>
                     <div class="flex justify-start w-full md:w-1/2 pr-8" data-aos="fade-right" data-aos-duration="1000">
                         <img src="{{asset('assets/image-2.png')}}" alt="Feature Image" class="w-64 h-auto rounded-lg shadow-md">
                     </div>
+                    <div class="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2 z-0 " data-aos="fade-down" data-aos-duration="1000" id="verticalLine"></div>
                 </div>
 
                 <!-- Timeline Item 3 -->
-                <div class="flex justify-start items-center md:flex-row w-full  py-8">
+                <div class="flex justify-start items-center md:flex-row w-full relative  py-8 timelineContent" >
                     <div class="flex justify-start w-full md:w-1/2 pr-8">
                         <div class="max-w-md " data-aos="fade-right" data-aos-duration="1000">
                             <h3 class="text-xl font-bold">Feature 1</h3>
@@ -65,13 +64,14 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center w-12 h-12 bg-white border-2 border-black rounded-full absolute left-1/2 transform -translate-x-1/2">
+                    <div class="flex justify-center items-center w-12 h-12 bg-white z-20 border-2 border-black rounded-full absolute left-1/2 transform -translate-x-1/2">
                         <!-- Icon in the middle -->
                         <span class="text-green-500 font-bold" data-aos="fade-down" data-aos-duration="1000"><div class="small-circle"></div></span>
                     </div>
                     <div class="flex justify-end w-full md:w-1/2 pl-8" data-aos="fade-left" data-aos-duration="1000">
                         <img src="{{asset('assets/image-3.png')}}" alt="Feature Image" class="w-64 h-auto rounded-lg shadow-md">
                     </div>
+                    <div class="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2 z-0" data-aos="fade-down" data-aos-duration="1000" id="verticalLine"></div>
                 </div>
             </div>
         </section>
@@ -183,4 +183,6 @@
     });
 
 </script>
+
+
 </x-layout.app>
