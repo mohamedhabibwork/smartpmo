@@ -9,7 +9,7 @@
     </section>
 
     <!-- Case Studies Section -->
-    <section class="container mx-auto py-12 px-6">
+    <section class="container mx-auto py-12 px-6 overflow-hidden">
         <!-- Case Study Entries -->
         <div class="space-y-12">
             <div class="text-center mb-12">

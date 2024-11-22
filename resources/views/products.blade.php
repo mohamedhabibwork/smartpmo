@@ -9,6 +9,49 @@
 
     <!-- Our Products Section -->
     <x-products/>
+
+    <!--What spmo section-->
+
+    <section class="my-4">
+        <div class="px-14 py-12">
+            <h1 class="font-bold text-3xl">What SPMO delivers?</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+        <div class="flex ">
+            <div class="pmo-card px-32 " data-aos="fade-up-right" data-aos-duration="1000">
+                <img src="{{asset('assets/stat.png')}}" width="425" height="286" >
+                <div class="card-content bg-white p-6 max-w-[425px]">
+                    <h3 class="font-bold mb-3">Quickly spot budget and schedule deviations</h3>
+                    <p class="max-w-sm">Track financial and physical progress with detailed charts, enabling you to promptly identify any issues and make necessary adjustments.</p>
+                </div>
+            </div>
+            <div class="pmo-card px-32 mt-80" data-aos="fade-up-left" data-aos-duration="1000" >
+                <img src="{{asset('assets/stat.png')}}" width="425" height="286" >
+                <div class="card-content bg-white p-6 max-w-[425px]">
+                    <h3 class="font-bold mb-3">Quickly spot budget and schedule deviations</h3>
+                    <p class="max-w-sm">Track financial and physical progress with detailed charts, enabling you to promptly identify any issues and make necessary adjustments.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex ">
+            <div class="pmo-card px-32 " data-aos="fade-up-right" data-aos-duration="1000">
+                <img src="{{asset('assets/stat.png')}}" width="425" height="286" >
+                <div class="card-content bg-white p-6 max-w-[425px]">
+                    <h3 class="font-bold mb-3">Quickly spot budget and schedule deviations</h3>
+                    <p class="max-w-sm">Track financial and physical progress with detailed charts, enabling you to promptly identify any issues and make necessary adjustments.</p>
+                </div>
+            </div>
+            <div class="pmo-card px-32 mt-80" data-aos="fade-up-left" data-aos-duration="1000">
+                <img src="{{asset('assets/stat.png')}}" width="425" height="286" >
+                <div class="card-content bg-white p-6 max-w-[425px]">
+                    <h3 class="font-bold mb-3">Quickly spot budget and schedule deviations</h3>
+                    <p class="max-w-sm">Track financial and physical progress with detailed charts, enabling you to promptly identify any issues and make necessary adjustments.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <!-- How It Works Section -->
     <section class="container mx-auto py-12 px-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
 

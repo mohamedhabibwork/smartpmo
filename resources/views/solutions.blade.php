@@ -8,7 +8,7 @@
     </section>
 
     <!-- Industries Section -->
-    <section class="container mx-auto py-12 px-6">
+    <section class="container mx-auto py-12 px-6 overflow-hidden">
         <div class="px-4 md:px-6" data-aos="fade-right" data-aos-duration ="1000">
             <h2 class="text-5xl font-extrabold mb-4">Industries</h2>
             <p class="text-gray-700 dark:text-gray-300 mb-8 max-w-5xl">Lorem Ipsum is simply dummy text of the printing
@@ -16,79 +16,39 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6" data-aos="fade-down" data-aos-duration ="1000">
-            <!-- Accordion Section -->
-            <div
-                class="flex justify-center items-center flex-col bg-gray-200 dark:bg-gray-800 p-6 rounded-t-lg md:rounded-r-none md:rounded-l-lg w-full md:w-1/2 lg:w-1/3 h-auto md:h-96">
-                <!-- Accordion Items -->
-                <div class="w-full border-b border-slate-200 x-accordion">
-                    <button
-                        class="btn-accordion w-full flex justify-between items-center py-5 text-slate-800 toggle-accordion">
-                        <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                            <path
-                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
-                        </svg>
-                    </span>
-                    </button>
-                    <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-slate-500">
-                            MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
-                            you can turn the complexity of your project into an optimal sequence of actions that reduce
-                            risk while optimizing time and budget.
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full border-b border-slate-200 x-accordion">
-                    <button
-                        class="btn-accordion w-full flex justify-between items-center py-5 text-slate-800 toggle-accordion">
-                        <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-slate-800 transition-transform duration-300">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                               class="w-4 h-4">
-                            <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z"/>
-                          </svg>
-                        </span>
-                    </button>
-                    <div class="x-content max-h-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-slate-500">
-                            MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
-                            you can turn the complexity of your project into an optimal sequence of actions that reduce
-                            risk while optimizing time and budget.
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full border-b border-slate-200 x-accordion">
-                    <button
-                        class="btn-accordion w-full flex justify-between items-center py-5 text-slate-800 toggle-accordion">
-                        <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                            <path
-                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
-                        </svg>
-                    </span>
-                    </button>
-                    <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-slate-500">
-                            MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
-                            you can turn the complexity of your project into an optimal sequence of actions that reduce
-                            risk while optimizing time and budget.
-                        </div>
-                    </div>
-                </div>
+        <div class="  px-8 rounded-2xl">
+            <!-- Tab Navigation -->
+            <div class="flex flex-col md:flex-row justify-center items-center bg-[#D9D9D9] p-4 rounded-lg overflow-auto border-b border-gray-300 dark:border-gray-600 mb-6 w-full" data-aos="fade-down" data-aos-duration="1000">
+                <button @click="activeTab = 'Project Analysis'" :class="{ 'border-primary-600 text-[#CA822B] border-b-2': activeTab === 'Project Analysis' }" class="px-4 py-2 text-[#CA822B] text-sm font-semibold ">Infrastructure</button>
+                <button @click="activeTab = 'Project Control'" :class="{ 'border-primary-600 text-primary-600 border-b-2': activeTab === 'Project Control' }" class="px-4 py-2 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-[#CA822B]">Energy</button>
+                <button @click="activeTab = 'Digest & Accumulate'" :class="{ 'border-primary-600 text-primary-600 border-b-2': activeTab === 'Digest & Accumulate' }" class="px-4 py-2 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-[#CA822B]">Commercial</button>
             </div>
-            <!-- Image Section -->
-            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-b-lg md:rounded-l-none md:rounded-r-lg h-96 object-cover" style="object-fit: cover;">
-                <source src="{{ asset('assets/4784453_Mumbai_India_1280x720.mp4') }}" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <!-- Product Content -->
+            <div class=" flex gap-6 items-start mb-12 dark:bg-gray-800 px-1 rounded-lg" x-show="activeTab === 'Project Analysis'">
+                <!-- Text Content (4 columns on medium screens, 12 columns on smaller screens) -->
+
+                <div  class="col-span-12 md:col-span-8">
+                    <img src="{{ asset('assets/charts.png') }}" alt="Dashboard Screenshot" class=" rounded-lg shadow-md" data-aos="zoom-in-up" data-aos-duration = '1000'> <!-- Replace with actual image -->
+                </div>
+
+                <div  class=" mb-6 md:mb-0" data-aos="fade-up-right" data-aos-duration="1000">
+                    <div class="flex flex-col justify-between items-center">
+                        <p class="max-w-2xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <a href="{{route('case-example')}}" class="bg-[#057E6A] p-4 text-white mt-12 rounded">Check Case Studies</a>
+                    </div>
+
+                </div>
+
+                <!-- Image Content (8 columns on medium screens, 12 columns on smaller screens) -->
+
+            </div>
+
+
         </div>
     </section>
 
     <!-- Ideal For Section -->
-    <section class="container mx-auto py-12 px-6">
+    <section class="container mx-auto py-12 px-6 overflow-hidden">
         <div class="px-4 md:px-6" data-aos="fade-left" data-aos-duration ="1000">
             <h2 class="text-3xl font-bold mb-4">Ideal For</h2>
             <p class="text-gray-700 dark:text-gray-300 mb-8 max-w-5xl">Lorem Ipsum is simply dummy text of the printing
@@ -96,73 +56,37 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row items-start mb-12  px-4 md:px-6" data-aos="fade-up" data-aos-duration ="1000">
-            <!-- Image Section -->
-            <video autoplay loop muted class="w-full md:w-2/3 lg:w-3/4 rounded-t-lg md:rounded-r-none  md:rounded-l-lg h-96 object-cover" style="object-fit: cover;">
-                <source src="{{ asset('assets/compress-people-industry.mp4') }}" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div class="  px-8 rounded-2xl">
+            <!-- Tab Navigation -->
+            <div class="flex flex-col md:flex-row justify-center items-center bg-[#646464] p-4 rounded-lg overflow-auto border-b border-gray-300 dark:border-gray-600 mb-6 w-full" data-aos="fade-down" data-aos-duration="1000">
+                <button @click="activeTab = 'Project Analysis'" :class="{ 'border-primary-600 text-white border-b-2': activeTab === 'Project Analysis' }" class="px-4 py-2 text-sm text-[#CA822B] font-semibold ">General Contractors</button>
+                <button @click="activeTab = 'Project Control'" :class="{ 'border-primary-600 text-primary-600 border-b-2': activeTab === 'Project Control' }" class="px-4 py-2 text-sm font-semibold text-white dark:text-gray-300 hover:text-[#CA822B]">Owner/Operator</button>
+                <button @click="activeTab = 'Digest & Accumulate'" :class="{ 'border-primary-600 text-primary-600 border-b-2': activeTab === 'Digest & Accumulate' }" class="px-4 py-2 text-sm font-semibold text-white dark:text-gray-300 hover:text-[#CA822B]">Consultants</button>
+                <button @click="activeTab = 'Digest & Accumulate'" :class="{ 'border-primary-600 text-primary-600 border-b-2': activeTab === 'Digest & Accumulate' }" class="px-4 py-2 text-sm font-semibold text-white dark:text-gray-300 hover:text-[#CA822B]">EPCs</button>
 
-            <!-- Accordion Section -->
-            <div class="flex justify-center items-center flex-col bg-[#646464] dark:bg-gray-800 p-6 rounded-b-lg md:rounded-l-none md:rounded-r-lg  w-full md:w-1/3 lg:w-1/4 h-auto md:h-96">
-                <div class="w-full border-b border-slate-200 x-accordion">
-                    <button
-                        class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
-                        <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-[#CA822B] transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ">
-                            <path
-                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
-                        </svg>
-                        </span>
-                    </button>
-                    <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-white">
-                            MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
-                            you can turn the complexity of your project into an optimal sequence of actions that reduce
-                            risk while optimizing time and budget.
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full border-b border-slate-200 x-accordion">
-                    <button
-                        class="btn-accordion text-white  w-full flex justify-between items-center py-5 toggle-accordion">
-                        <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-[#CA822B] transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                            <path
-                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
-                        </svg>
-                    </span>
-                    </button>
-                    <div class="x-content max-h-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-white">
-                            MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
-                            you can turn the complexity of your project into an optimal sequence of actions that reduce
-                            risk while optimizing time and budget.
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full border-b border-slate-200 x-accordion">
-                    <button
-                        class="btn-accordion text-white w-full flex justify-between items-center py-5 toggle-accordion">
-                        <span class="font-bold text-3xl">Infrastructure</span>
-                        <span class="x-icon text-[#CA822B] transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ">
-                            <path
-                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/>
-                        </svg>
-                    </span>
-                    </button>
-                    <div class="x-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-sm text-white">
-                            MWhether building a tunnel, a highway, or an airport, with Frontline’s AI-powered solution
-                            you can turn the complexity of your project into an optimal sequence of actions that reduce
-                            risk while optimizing time and budget.
-                        </div>
-                    </div>
-                </div>
             </div>
+            <!-- Product Content -->
+            <div class=" flex gap-6 items-start mb-12 dark:bg-gray-800 px-1 rounded-lg" x-show="activeTab === 'Project Analysis'">
+                <!-- Text Content (4 columns on medium screens, 12 columns on smaller screens) -->
+
+
+
+                <div  class=" mb-6 md:mb-0" data-aos="fade-up-right" data-aos-duration="1000">
+                    <div class="flex flex-col justify-between items-center">
+                        <p class="max-w-2xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <a href="{{route('case-example')}}" class="bg-[#057E6A] p-4 text-white mt-16 rounded">Check Case Studies</a>
+                    </div>
+
+                </div>
+                <div  class="col-span-12 md:col-span-8">
+                    <img src="{{ asset('assets/Mask group (10).png') }}" alt="Dashboard Screenshot" class=" rounded-lg shadow-md" data-aos="zoom-in-up" data-aos-duration = '1000'> <!-- Replace with actual image -->
+                </div>
+
+                <!-- Image Content (8 columns on medium screens, 12 columns on smaller screens) -->
+
+            </div>
+
+
         </div>
     </section>
 

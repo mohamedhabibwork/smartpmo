@@ -170,3 +170,19 @@
     }
 }
 
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .pmo-card {
+        max-width: none;
+        margin: 0 auto 40px;
+        padding: 16px;
+    }
+
+    .card-content {
+        padding: 16px;
+    }
+}
+

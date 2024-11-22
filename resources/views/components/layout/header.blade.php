@@ -17,14 +17,23 @@
                 <!-- Resources Dropdown -->
                 <div x-data="{ open: false }" class="relative z-20">
                     <a href="#" @click="open = !open" class="block hover:text-amber-700">Resources <i class="fa-solid fa-caret-down"></i></a>
-                    <div x-show="open" @click.away="open = false" x-cloak class="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-md z-10 border-gray-700 border-1">
-                        <a href="{{ route('case-study') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Case study</a>
-                        <a href="{{ route('case-example') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Case study example</a>
+                    <div x-show="open" @click.away="open = false" x-cloak class="absolute left-[-300px] mt-2 flex justify-center items-center gap-4 bg-white dark:bg-gray-800 shadow-lg rounded-md z-10 border-gray-700 border-1">
+                        <a href="{{ route('case-study') }}" class="block  px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">
+                            Case study
+                            <p class="w-80">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                        </a>
+{{--                        <a href="{{ route('case-example') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Case study example</a>--}}
 
-                        <a href="{{ route('news') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">News</a>
-                        <a href="{{ route('article') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Articles</a>
-                        <a href="{{ route('blog') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Blog</a>
-                        <a href="{{ route('blog-detail') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Blog-details</a>
+                        <a href="{{ route('news') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">
+                            News
+                            <p class="w-80">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                        </a>
+{{--                        <a href="{{ route('article') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Articles</a>--}}
+                        <a href="{{ route('blog') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">
+                            Blog
+                            <p class="w-80">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                        </a>
+{{--                        <a href="{{ route('blog-detail') }}" class="block px-4 py-2 hover:bg-amber-700 dark:hover:bg-primary-500 hover:text-white">Blog-details</a>--}}
 
                     </div>
                 </div>
